@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sweet Homestead Preserves</title>
+  <link rel="stylesheet" href="../css/styles.css">
+</head>
+
+<body>
+  <header>
+    <div class="header-bg">
+      <div class="header-text">
+        <h1>Sweet Homestead Preserves</h1>
+        <p>Farm-fresh organic products</p>
+      </div>
+    </div>
+  </header>
+
+  <nav class="navigation">
+    <ul class="navigation-list">
+      <li class="navigation-item">
+        <a href="index.html">Store</a>
+      </li>
+    </ul>
+  </nav>
+
+  <div class="container">
+    <h2>Cart:</h2>
+
+    <table class="cart-table">
+      <thead>
+        <tr>
+          <th></th>
+          <th>Product</th>
+          <th>Quantity</th>
+          <th>Price</th>
+        </tr>
+      </thead>
+      <tbody id="items"></tbody>
+      <tfoot>
+        <tr>
+          <td colspan="3"><b>Total:</b></td>
+          <td><b id="total-price">0</b></td>
+        </tr>
+      </tfoot>
+    </table>
+
+    <input type="checkbox" id="add-discount">
+    <label for="add-discount">Apply discount</label>
+
+    <p class="discount hidden" id="discount" data-discount-should-be-enabled="1">Discount: <b><span
+          id="discount-amount">10</span></b> on your entire order
+    </p>
+
+    <div class="proceed-button">
+      <a href="order-summary.html" class="button" id="go-to-summary">Proceed</a>
+    </div>
+
+  </div>
+
+  <script src="../js/cart.js"></script>
+</body>
+
+</html>

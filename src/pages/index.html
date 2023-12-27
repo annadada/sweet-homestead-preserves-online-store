@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sweet Homestead Preserves</title>
+  <link rel="stylesheet" href="../css/styles.css">
+</head>
+
+<body>
+
+  <header>
+    <div class="header-bg">
+      <div class="header-text">
+        <h1>Sweet Homestead Preserves</h1>
+        <p>Farm-fresh organic products</p>
+      </div>
+    </div>
+  </header>
+
+
+  <nav class="navigation">
+    <ul class="navigation-list">
+      <li class="navigation-item">
+        <a href="index.html">Store</a>
+      </li>
+    </ul>
+
+    <div class="cart">
+      <a href="cart.html" class="button">
+        Cart
+        <span class="counter">0</span>
+      </a>
+    </div>
+  </nav>
+
+  <div class="container">
+    <h2>Products:</h2>
+
+    <section class="products-list">
+      <div class="product-box">
+        <img src="../img/strawberry-jam.jpg" width="300" height="200" alt="Strawberry jam">
+        <div class="product-box-body">
+          <p class="product-box-title">Strawberry Jam</p>
+          <p><b>Price</b>: $4.82</p>
+          <button class="button cart-button" data-title="Strawberry jam" data-price="4.82" data-id="1">Add to
+            cart</button>
+        </div>
+      </div>
+
+      <div class="product-box">
+        <img src="../img/plum-preserves.jpg" width="300" height="200" alt="Plum preserves">
+        <div class="product-box-body">
+          <p class="product-box-title">Plum Preserves</p>
+          <p><b>Price</b>: $6.31</p>
+          <button class="button cart-button" data-title="Plum preserves" data-price="6.31" data-id="2">Add to
+            cart</button>
+        </div>
+      </div>
+
+      <div class="product-box">
+        <img src="../img/lemons-in-syrup.jpg" width="300" height="200" alt="Lemons in syrup">
+        <div class="product-box-body">
+          <p class="product-box-title">Lemons in syrup</p>
+          <p><b>Price</b>: $5.47</p>
+          <button class="button cart-button" data-title="Lemons in syrup" data-price="5.47" data-id="3">Add to
+            cart</button>
+        </div>
+      </div>
+
+    </section>
+  </div>
+
+  <script src="../js/home.js" type="module"></script>
+</body>
+
+</html>

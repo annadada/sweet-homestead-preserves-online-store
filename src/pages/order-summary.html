@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sweet Homestead Preserves</title>
+  <link rel="stylesheet" href="../css/styles.css">
+</head>
+
+<body>
+  <header>
+    <div class="header-bg">
+      <div class="header-text">
+        <h1>Sweet Homestead Preserves</h1>
+        <p>Farm-fresh organic products</p>
+      </div>
+    </div>
+  </header>
+
+  <nav class="navigation">
+    <ul class="navigation-list">
+      <li class="navigation-item">
+        <a href="index.html">Store</a>
+      </li>
+    </ul>
+  </nav>
+
+  <div id="loading">Sending...</div>
+
+
+  <form class="container">
+    <h2>Order completion:</h2>
+
+    <div class="summary">
+      <div class="summary-box">
+        <h3>Data:</h3>
+        <div class="form-item">
+          <label for="name">Full name:</label>
+          <input type="text" id="name" name="name">
+        </div>
+
+        <div class="form-item">
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email">
+        </div>
+
+        <div class="form-item">
+          <label for="email-confirm">Repeat email:</label>
+          <input type="email" id="email-confirm" name="email-confirm">
+        </div>
+
+        <div class="form-item">
+          <label for="tel">Phone:</label>
+          <input type="tel" id="tel" name="tel">
+        </div>
+
+        <h3>Payment:</h3>
+        <div class="payment-box">
+          <label>
+            <input type="radio" name="payment" value="google-pay" checked>Google Pay
+          </label>
+          <label>
+            <input type="radio" name="payment" value="blik">Blik
+          </label>
+          <label>
+            <input type="radio" name="payment" value="paypal">PayPal
+          </label>
+        </div>
+
+        <ul id="errors"></ul>
+      </div>
+
+      <div class="summary-box">
+        <h3>Summary:</h3>
+        <ul id="items-list">
+        </ul>
+        <hr />
+        <p><b>Price</b>: $<span id="total-price"></span></p>
+        <p><b>Order date:</b> <span id="date"></span></p>
+      </div>
+    </div>
+
+    <div style="float: right; margin-top: 20px; margin-bottom: 30px">
+      <a href="cart.html" class="button">Back</a>
+      <button type="submit" href="#" class="button">Buy</button>
+    </div>
+  </form>
+
+  <script src="../js/order.js"></script>
+</body>
+
+</html>
