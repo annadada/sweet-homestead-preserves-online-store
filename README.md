@@ -61,7 +61,7 @@ After completing the order, you will be redirected to the order confirmation pag
   - `order-summary.html`: Order summary form page.
   - `order-accepted.html`: Order confirmation page.
 
-## How to Run
+## *How to Run*
 
 1. Clone the repository:
 
@@ -74,5 +74,5 @@ After completing the order, you will be redirected to the order confirmation pag
 
 3. Open the index.html file in your preferred web browser.
 
-### Disclaimer
+#### *Disclaimer*
 This project is a fictional online store created solely for the purpose of showcasing programming skills. It does not represent a fully functional e-commerce platform, and the product descriptions are intentionally omitted for demonstration purposes.
